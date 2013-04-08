@@ -1,0 +1,27 @@
+﻿
+/* Place calendar CSS files here. */
+@import url('../../Calendars/demo/monthview.css');
+@import url('../../Calendars/demo/weekview.css');
+@import url('../../Calendars/demo/listview.css');
+
+/* styles for sections */
+.ext-color-section,
+.ext-ie .ext-color-section-ad,
+.ext-opera .ext-color-section-ad {
+	background: #d5e9ff;
+	border:1px solid #b7d4f5;
+	margin:2px;}
+.ext-cal-day-col 
+.ext-color-section,
+.ext-dd-drag-proxy .ext-color-section,
+.ext-color-section-ad,
+.ext-color-section-ad .ext-cal-evm,
+.ext-color-section .ext-cal-picker-icon,
+.ext-color-section-x dl,
+.ext-color-section-x .ext-cal-evb {
+background: #86a723;
+}
+.ext-color-section-x .ext-cal-evb,
+.ext-color-section-x dl {
+border-color: #711616;
+}
