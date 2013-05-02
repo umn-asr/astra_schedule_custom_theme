@@ -4,12 +4,12 @@ astra_schedule_custom_theme
 Custom theme for the Ad Astra Schedule application.  This repo only has the modified files for the custom theme.
 
 Servers:
-  OIT-CLS-SCHED01.oit.umn.edu (alias: astra-tst.oit.umn.edu, astra-ent.oit.umn.edu)
+  OIT-CLS-SCHED01.oit.umn.edu (alias: astra-tst.oit.umn.edu)
   OIT-CLS-SCHED02.oit.umn.edu (alias: astra-prd.oit.umn.edu)
 
 Instances:
   Dev/Test 	- https://astra-tst.oit.umn.edu/AstraDev
-  Ent      	- https://astra-ent.oit.umn.edu/AstraEnt
+  Ent      	- https://astra-tst.oit.umn.edu/AstraEnt
   Prod		- https://astra-prd.oit.umn.edu/AstraProd
 
 Deployment:

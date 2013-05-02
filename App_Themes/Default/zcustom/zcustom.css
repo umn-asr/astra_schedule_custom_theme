@@ -284,7 +284,7 @@ b
 }
 a
 {
-    color: #5b0013;
+    color: #1c4976;
     text-decoration: underline;
 }
 a:hover, a:focus
@@ -1025,7 +1025,7 @@ a:hover, a:focus
     background-image: none;
     background-color: #eaeced;
     height: 16px;
-    color: #5b0013;
+    color: #1c4976;
     border-right: 0px;
     border-top: 0px;
     font-size: smaller;
@@ -1042,11 +1042,11 @@ a:hover, a:focus
 }
 .PrefListGrid .ColumnHead a
 {
-    color: #5b0013;
+    color: #1c4976;
 }
 .ListGrid .ColumnHead a:hover, .PrefListGrid .ColumnHead a:hover, .QuickListGrid .ColumnHead a:hover
 {
-    color: #5b0013;
+    color: #1c4976;
     text-decoration: underline;
 }
 .ListGrid .ColumnHead .HeaderSortArrow, .PrefListGrid .ColumnHead .HeaderSortArrow, .QuickListGrid .ColumnHead .HeaderSortArrow
@@ -1175,8 +1175,8 @@ a:hover, a:focus
 /*** FormGroupTab: for tabbed FormGroups, tends to be within an existing FormGroup ***/
 .FormGroupTabSet
 {
-    border-left: 1px solid #5b0013;
-    border-bottom: 1px solid #5b0013;
+    border-left: 1px solid #1c4976;
+    border-bottom: 1px solid #1c4976;
 }
 .FormGroupTabSet .FormGroupItems
 {
@@ -1184,9 +1184,9 @@ a:hover, a:focus
 .FormGroupTabLegend, .FormGroupTabLegendSelected
 {
     float: left;
-    border-top: 1px solid #5b0013;
-    border-right: 1px solid #5b0013;
-    border-bottom: 1px solid #5b0013;
+    border-top: 1px solid #1c4976;
+    border-right: 1px solid #1c4976;
+    border-bottom: 1px solid #1c4976;
     background-color: #d0d0e0;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -1437,7 +1437,7 @@ label, .FormLabel
 {
     float: right;
     text-decoration: none;
-    color: #5b0013;
+    color: #1c4976;
     height: auto;
     padding: 0px;
     vertical-align: top;
@@ -1519,7 +1519,7 @@ label, .FormLabel
 /* Form stuff */
 .FormGroup
 {
-    color: #5b0013;
+    color: #1c4976;
     clear: both;
     padding: 0px;
     margin: 0px;
@@ -1545,7 +1545,7 @@ label, .FormLabel
     padding: 0px;
     height: 20px;
     background-color: #f7f7f7;
-    border-bottom: solid 1px #5b0013;
+    border-bottom: solid 1px #1c4976;
 }
 /*
 .FormGroup .FormGroup .FormGroupHeaderImage, .
@@ -1579,7 +1579,7 @@ label, .FormLabel
 .LeftNav .FormGroup .Legend .Title, .LeftNav .FormGroup .FormGroupFixed .Legend .Title
 {
     border: 0px;
-    color: #5b0013;
+    color: #1c4976;
     font-size: 11px;
     text-decoration: none;
     padding: 0px;
@@ -1751,7 +1751,7 @@ label, .FormLabel
 {
     float: right;
     margin-right: 12px;
-    color: #5b0013;
+    color: #1c4976;
 }
 
 .FormLabel, label, .label
@@ -2112,7 +2112,7 @@ span.FormLabel
     font-size: 12px;
     padding-bottom: 6px;
     display: block;
-    background:#900021;
+    background:#1c4976;
     padding:5px;
     border:1px solid #cccccc;
     border-bottom:none;
@@ -3010,7 +3010,7 @@ div.trunctext:hover
 {
     background-color: #f4f4f4;
     background-image: url(images/Wizard/WizardPanelMacOSBG.gif);
-    border: 1px solid #900021;
+    border: 1px solid #1c4976;
     color: #000000;
     position: relative;
     padding: 0px;
@@ -3023,7 +3023,7 @@ div.trunctext:hover
 {
     background-color: #f4f4f4;
     background-image: url(images/Wizard/WizardPanelMacOSBG.gif);
-    border: 1px solid #900021;
+    border: 1px solid #1c4976;
     color: #000000;
     position: relative;
     padding: 0px;
@@ -3042,7 +3042,7 @@ div.trunctext:hover
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    border:1px solid #900021;
+    border:1px solid #1c4976;
 }
 
 .MessageModalPanel
@@ -3056,8 +3056,8 @@ div.trunctext:hover
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    border:1px solid #900021;
-    border-top:20px solid #900021;
+    border:1px solid #1c4976;
+    border-top:20px solid #1c4976;
 }
 
 
@@ -3144,8 +3144,8 @@ h2.ModalHeader
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    border:1px solid #900021;
-    border-top:20px solid #900021;
+    border:1px solid #1c4976;
+    border-top:20px solid #1c4976;
 }
 .OptimizerStatusModalPanel .ajaxStatus
 {
@@ -4268,7 +4268,7 @@ table.EditorZone tr td
     font-weight: bold;
     border:1px solid #cccccc;
     border-bottom:none;
-    background:#900021;
+    background:#1c4976;
 }
 
 
@@ -4329,14 +4329,14 @@ table.EditorZone tr td
     font-size: 12px;
     font-weight: bold;
     color: #ffffff;
-    background:#900021;
+    background:#1c4976;
 }
 table.CatalogHeader tr td
 {
     font-size: 12px;
     font-weight: bold;
     color: #ffffff;
-    background:#900021;
+    background:#1c4976;
 }
 .PartTitle span
 {
@@ -6159,7 +6159,7 @@ body, input, td, textarea, option {
 }
 .GridHyperLink-ASPxtoEXT
 {
-    color: #5b0013;
+    color: #1c4976;
     text-decoration: underline;
     font-weight:normal !important;
     font: 11px arial,tahoma,helvetica,sans-serif;
