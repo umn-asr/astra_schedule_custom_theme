@@ -7,13 +7,17 @@ Servers:
   OIT-CLS-SCHED01.oit.umn.edu (alias: astra-tst.oit.umn.edu)
   OIT-CLS-SCHED02.oit.umn.edu (alias: astra-prd.oit.umn.edu)
 
+File Shares:
+  smb://OIT-CLS-SCHED01.oit.umn.edu/d$ (dev/ent)
+  smb://OIT-CLS-SCHED02.oit.umn.edu/d$ (prod)
+
 Instances:
   Dev/Test 	- https://astra-tst.oit.umn.edu/AstraDev
   Ent      	- https://astra-tst.oit.umn.edu/AstraEnt
   Prod		- https://astra-prd.oit.umn.edu/AstraProd
 
 Deployment:
-  Hand copy necessary files at this time to the proper server.
+  Hand copy necessary files at this time to the proper server.  OCM has requested that we leave the ENT instance as vanilla so that there is a striking difference between ENT and PRD.
 
 Access:
   Chris Dinger and Eric Eklund have admin access to the Astra Schedule servers.  Bob Quinney is the technical contact in OCM.
@@ -41,7 +45,7 @@ App_Themes/
 		AstraStyleLibrary/
 		Images/
 		zcustom/
-			zcustom.css
+			zcustom.css (This is the main file for customization)
 			
 Theme/
 	custom/
