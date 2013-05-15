@@ -1,4 +1,8 @@
 ﻿/*********************************************
 Astra Schedule 7 Custom Styles for EXTjs Pages
 **********************************************/
-.Header {background:#7a0019;}
+.Header
+{
+    background-image: url(../../App_Themes/Default/zcustom/images/umn_repeater_header.gif);
+    background-color: #7a0019;
+}

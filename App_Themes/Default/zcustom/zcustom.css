@@ -14,7 +14,7 @@ Custom Theme Template
 
 /* Astra footer logo */
 .ApplicationFooterLogo {
-  width: 272px;
+  width: 275px;
   height: 25px;
   background-image: url(images/umn_footerAstraLogo.jpg);
 }
@@ -105,48 +105,6 @@ b
 }
 /* END 0d3e63 to 5b0013 */
 
-/* BEGIN 347ebf to XXXXXX not currently modified */
-a,
-.PrefListGrid .ColumnHead a,
-.ListGrid .ColumnHead a:hover, 
-.PrefListGrid .ColumnHead a:hover, 
-.QuickListGrid .ColumnHead a:hover,
-.FormGroup .Legend .HelpAnchor,
-.LeftNav .FormGroup .Legend .Title, 
-.LeftNav .FormGroup .FormGroupFixed .Legend .Title,
-.FormGroup .MoreHeader, 
-.GridHyperLink-ASPxtoEXT
-{
-    color: #347ebf;
-}
-.PrefListGrid .ColumnHead th, .PrefListGrid .ColumnHead td, .QuickListGrid .ColumnHead td
-{
-    background-color: #eaeced;
-    color: #347ebf;
-}
-
-/*** FormGroupTab: for tabbed FormGroups, tends to be within an existing FormGroup ***/
-.FormGroupTabSet
-{
-    border-left: 1px solid #347ebf;
-    border-bottom: 1px solid #347ebf;
-}
-.FormGroupTabLegend, .FormGroupTabLegendSelected
-{
-    border-top: 1px solid #347ebf;
-    border-right: 1px solid #347ebf;
-    border-bottom: 1px solid #347ebf;
-    background-color: #d0d0e0;
-}
-.LeftNav .FormGroup .Legend, .LeftNav .FormGroupFixed .Legend
-{
-    background-color: #f7f7f7;
-    border-bottom: solid 1px #347ebf;
-}
-/* END 347ebf to 347ebf */
-
-
-
 /* BEGIN 336699 to 900021 */
 legend.display
 {
@@ -156,10 +114,12 @@ legend.display
 {
     background: #900021 url(../images/ArrowExpand.gif) no-repeat top right;
 }
+/*
 .FormGroup .Legend
 {
     background: #900021;
 }
+*/
 .ControlButtonBlue
 {
     color: #ffffff;
@@ -190,13 +150,6 @@ legend.display
 	background:#900021;	
 	color:#ffffff;
 }
-/* Removed as it didn't mesh well with the blue portion of the calendar background
-.CalendarWrapper 
-{
-	background:#900021 url(images/Calendar/CalendarBackground.gif) repeat-x top;
-	border:1px solid #900021;
-}
-*/
 #CalGridView .GridFrame
 {
     background:#900021;
@@ -211,11 +164,6 @@ table.main .WizardButton
     background: url("images/ButtonBGlightgrey.gif") repeat-x scroll center bottom #900021;
     border: 1px solid #BDBDBD;
     color: #000000;
-}
-.FormGroup .Legend
-{
-    color: #FFDE7A;  /* was #083e6a; */
-    background: #900021;
 }
 .LeftNav .SubNav, .LeftNav .SubNavCollapsed
 {
