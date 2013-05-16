@@ -1,1 +1,127 @@
-﻿
+﻿/* UofM Header Logo */
+.ApplicationLogo {
+  width: 380px;  /* modified from default 206px by 43px to match the Driven to Discover U of M Wordmark */
+  height: 68px;  
+  background-image: url(../../App_Themes/Default/zcustom/images/uofm_wdmk_D2D.gif);
+}
+
+/* Astra footer logo */
+.ApplicationFooterLogo {
+  width: 275px;	 /* modified from default 272px by 25px to match custom Astra logo and copyright */
+  height: 25px;
+  background-image: url(../../App_Themes/Default/zcustom/images/umn_footerAstraLogo.jpg);
+}
+
+/* BEGIN 316293 to 7a0019 */
+.Header
+{
+    background-image: url(../../App_Themes/Default/zcustom/images/umn_repeater_header.gif);
+    background-color: #7a0019;
+}
+.TopNav, .Footer, .TabNavigation
+{
+  background-color: #7a0019;
+}
+.Title, .CrumbBar .ControlButton, .WizardInnerFormLegend
+{
+    color: #7a0019;
+}
+.list-item
+{
+    background-color: #ddecf1;
+    color: #7a0019;
+    border-color: #B1BBBF;
+}
+div.erfSection h3
+{
+    color: #7a0019;
+}
+div#Master_MainContentPlaceHolder_EventRequestFormGroup_panelDesignerFields div.list-item
+{
+    background-color: #dde2f1;
+    color: #7a0019;
+}
+/* END 316293 to 7a0019 */
+
+/* BEGIN B5C7EC to FFCC33 */
+.Header .Utilities a, .Footer .Utilities a, .LoginHeader Label
+{
+    color: #FFCC33;
+}
+/* END B5C7EC to FFCC33 */
+
+/* BEGIN 1C4976 to 900021 */
+.ModalPanel, .OptimizerStatusModalPanel, .ModalPanelCrosslist, .TinyModalPanel
+{
+    border: 1px solid #900021;
+}
+.MessageModalPanel, .OptimizerStatusModalPanel
+{
+    border: 1px solid #900021;
+    border-top: 20px solid #900021;
+}
+.PartTitle, .CatalogHeader, .ModalHeader, table.CatalogHeader tr td
+{
+    background: #900021;
+}
+/* END 1C4976 to 900021 */
+
+/* BEGIN 0d3e63 to 5b0013 */
+b
+{
+    color: #5b0013;
+}
+/* END 0d3e63 to 5b0013 */
+
+/* BEGIN 336699 to 900021 */
+legend.display
+{
+	color:#900021;
+}
+.ControlButtonBlue
+{
+    color: #ffffff;
+    background: #900021 url(../../App_Themes/Default/images/ButtonBGBlue.gif) bottom;  /* add ../ to bump back to default image directory */
+    border:1px solid #204161;
+}
+.ControlButtonBlue:hover
+{
+    color: #ffffff;
+    background: #900021 url(../../App_Themes/Default/images/ButtonDownBGBlue.gif);  /* add ../ to bump back to default image directory */
+}
+.Wizard .FormGroup .Legend,
+.Wizard .FormGroup .Legend:hover,
+#CalGridView .GridFrame
+{
+	background:#900021;
+}
+.SplashGuide .SplashGroupTitle
+{
+    color: #ffffff;
+    background:#900021;
+    border:1px solid #cccccc;
+}
+.ModalPanelHeader
+{
+	background:#900021;	
+	color:#ffffff;
+}
+table.main .WizardButton
+{
+    background: #900021 url(../../App_Themes/Default/images/ButtonBGBlue.gif);  /* add ../ to bump back to default image directory */
+    border: 1px solid #000000;
+}
+.TextControlButton
+{
+    background: url("../../App_Themes/Default/images/ButtonBGlightgrey.gif") repeat-x scroll center bottom #900021;
+    border: 1px solid #BDBDBD;
+    color: #000000;
+}
+/* END 336699 to 900021 */
+
+/* BEGIN 476f8d to ffde7a */
+.Header .Utilities .break
+{
+    color: #ffde7a;
+}
+/* END 476f8d to ffde7a */

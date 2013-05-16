@@ -2,19 +2,19 @@
 Astra Schedule 7 base css document
 ---------------------------------------
 
-Custom Theme Template
+Custom Theme Template to override base.css
 
 ****************************/
 /* UofM Header Logo */
 .ApplicationLogo {
-  width: 380px;  /* 206px; */
-  height: 68px;  /* 43px;  */
+  width: 380px;  /* modified from default 206px by 43px to match the Driven to Discover U of M Wordmark */
+  height: 68px;  
   background-image: url(images/uofm_wdmk_D2D.gif);
 }
 
 /* Astra footer logo */
 .ApplicationFooterLogo {
-  width: 275px;
+  width: 275px;	 /* modified from default 272px by 25px to match custom Astra logo and copyright */
   height: 25px;
   background-image: url(images/umn_footerAstraLogo.jpg);
 }
@@ -57,44 +57,19 @@ div#Master_MainContentPlaceHolder_EventRequestFormGroup_panelDesignerFields div.
 }
 /* END B5C7EC to FFCC33 */
 
-/* BEGIN 555577 to ?????? */
-.TabNavigation a /** the individual tabs **/
-{
-    color: #555577;
-    /* background-image: url(images/tab-repeater.gif); */
-}
-/* END 555577 to ?????? */
-
 /* BEGIN 1C4976 to 900021 */
-.ModalPanel, .OptimizerStatusModalPanel, .ModalPanelCrosslist
+.ModalPanel, .OptimizerStatusModalPanel, .ModalPanelCrosslist, .TinyModalPanel
 {
     border: 1px solid #900021;
 }
-.TinyModalPanel
+.MessageModalPanel, .OptimizerStatusModalPanel
 {
-   border:1px solid #900021;
+    border: 1px solid #900021;
+    border-top: 20px solid #900021;
 }
-.MessageModalPanel
+.PartTitle, .CatalogHeader, .ModalHeader, table.CatalogHeader tr td
 {
-    border:1px solid #900021;
-    border-top:20px solid #900021;
-}
-.OptimizerStatusModalPanel
-{
-    border:1px solid #900021;
-    border-top:20px solid #900021;
-}
-.PartTitle
-{
-    background:#900021;
-}
-.CatalogHeader, .ModalHeader
-{
-    background:#900021;
-}
-table.CatalogHeader tr td
-{
-    background:#900021;
+    background: #900021;
 }
 /* END 1C4976 to 900021 */
 
@@ -110,32 +85,20 @@ legend.display
 {
 	color:#900021;
 }
-.LeftNav .SubNav, .LeftNav .SubNavCollapsed
-{
-    background: #900021 url(../images/ArrowExpand.gif) no-repeat top right;
-}
-/*
-.FormGroup .Legend
-{
-    background: #900021;
-}
-*/
 .ControlButtonBlue
 {
     color: #ffffff;
-    background: #900021 url(../images/ButtonBGBlue.gif) bottom;
+    background: #900021 url(../images/ButtonBGBlue.gif) bottom;  /* add ../ to bump back to default image directory */
     border:1px solid #204161;
 }
 .ControlButtonBlue:hover
 {
     color: #ffffff;
-    background: #900021 url(../images/ButtonDownBGBlue.gif);
+    background: #900021 url(../images/ButtonDownBGBlue.gif);  /* add ../ to bump back to default image directory */
 }
-.Wizard .FormGroup .Legend
-{
-	background:#900021;  
-}
-.Wizard .FormGroup .Legend:hover
+.Wizard .FormGroup .Legend,
+.Wizard .FormGroup .Legend:hover,
+#CalGridView .GridFrame
 {
 	background:#900021;
 }
@@ -150,10 +113,6 @@ legend.display
 	background:#900021;	
 	color:#ffffff;
 }
-#CalGridView .GridFrame
-{
-    background:#900021;
-}
 table.main .WizardButton
 {
     background: #900021 url(../images/ButtonBGBlue.gif);  /* add ../ to bump back to default image directory */
@@ -161,13 +120,9 @@ table.main .WizardButton
 }
 .TextControlButton
 {
-    background: url("images/ButtonBGlightgrey.gif") repeat-x scroll center bottom #900021;
+    background: url("../images/ButtonBGlightgrey.gif") repeat-x scroll center bottom #900021;
     border: 1px solid #BDBDBD;
     color: #000000;
-}
-.LeftNav .SubNav, .LeftNav .SubNavCollapsed
-{
-    background: #900021 url(../images/ArrowExpand.gif) no-repeat top right; /* add ../ to bump back to default image directory */
 }
 /* END 336699 to 900021 */
 

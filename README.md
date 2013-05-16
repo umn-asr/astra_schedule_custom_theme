@@ -17,10 +17,24 @@ Instances:
   Prod		- https://astra-prd.oit.umn.edu/AstraProd
 
 Deployment:
-  Hand copy necessary files at this time to the proper server.  OCM has requested that we leave the ENT instance as vanilla so that there is a striking difference between ENT and PRD.
+  Hand copy all files in the repository except the README.md file.  Connect to the file share for the instance your wish to deploy to and navigate to the following directory structure:
+Share
+	Program Files (x86)/
+		Ad Astra/
+			[current version number]/ (example: 7.5.7.199/)
+				Instances/
+					[Astra instance]/ (example AstraDev/, AstraEnt/ or AstraPrd/)
+						/Schedule   
+
+Copy all files in the repository to the schedule folder.  Refresh the instance to ensure the server is now branded appropriately.
 
 Access:
-  Chris Dinger and Eric Eklund have admin access to the Astra Schedule servers.  Bob Quinney is the technical contact in OCM.
+  Chris Dinger and Eric Eklund have admin access to the Astra Schedule servers.  Bob Quinney is the technical contact in OCM.  I will request that the ASR Web team AD group be added as admin to the box (05-16-2013).
+
+
+
+
+Additional Information on Theming Astra:
 
 Default Astra Schedule Theme Files
 
