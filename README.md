@@ -26,7 +26,8 @@ Share
 					[Astra instance]/ (example AstraDev/, AstraEnt/ or AstraPrd/)
 						/Schedule   
 
-Copy all files in the repository to the schedule folder.  Refresh the instance to ensure the server is now branded appropriately.
+Copy all files in the repository to the respective folder.  Refresh the instance to ensure the server is now branded appropriately.
+** WARNING: Do not copy/paste folders from the root level of the repository as copying the full directories wipes out existing files on the server and will break the server!  The copy/paste needs to happen at the file level to prevent error.
 
 Access:
   Chris Dinger and Eric Eklund have admin access to the Astra Schedule servers.  Bob Quinney is the technical contact in OCM.  I will request that the ASR Web team AD group be added as admin to the box (05-16-2013).
