@@ -1,5 +1,8 @@
 # astra_schedule_custom_theme
 
+## UMN Custom Theme Screen Shot
+![UMN Custom Astra Theme screen shot](./AstraThemeScreenShot.png?raw=true)
+
 ## Custom theme for the Ad Astra Schedule application.  
 This repo only has the modified files for the custom theme.
 
